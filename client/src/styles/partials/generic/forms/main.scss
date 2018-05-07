@@ -1,0 +1,62 @@
+.bd-setting-switch,
+.bd-form-textinput,
+.bd-form-textarea,
+.bd-form-numberinput,
+.bd-form-dropdown,
+.bd-form-radio,
+.bd-form-slider,
+.bd-form-colourpicker,
+.bd-form-keybind,
+.bd-form-fileinput,
+.bd-form-guildinput,
+.bd-form-settingsarray {
+    .bd-title {
+        display: flex;
+
+        h3 {
+            font-weight: 500;
+            color: #f6f6f7;
+            flex: 1;
+            line-height: 24px;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+
+    .bd-hint {
+        flex: 1 1 auto;
+        margin-top: 5px;
+        margin-bottom: 0;
+        line-height: 20px;
+        border-bottom: 0px solid rgba(114, 118, 126, 0.1);
+    }
+
+    .bd-disabled & {
+        opacity: 0.6;
+
+        &, input {
+            cursor: not-allowed !important;
+        }
+    }
+}
+
+.bd-form-customsetting {
+    &.bd-form-customsetting-debug + .bd-form-divider {
+        margin-top: 0;
+    }
+
+    > .bd-form-customsetting-value {
+        margin-bottom: 0;
+
+        .bd-form-textarea-details {
+            margin-top: 15px;
+        }
+
+        .bd-button {
+            margin-top: 10px;
+            padding: 5px 8px;
+            border-radius: 2px;
+            font-size: 14px;
+        }
+    }
+}

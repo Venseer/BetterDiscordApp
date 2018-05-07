@@ -1,0 +1,27 @@
+.bd-flex {
+    display: flex;
+}
+
+.bd-flex-row {
+    flex-direction: row;
+}
+
+.bd-flex-col {
+    flex-direction: column;
+}
+
+.bd-flex-grow {
+    flex-grow: 1;
+}
+
+.bd-flex-spacer {
+    flex-grow: 1;
+}
+
+.bd-hide {
+    display: none;
+}
+
+.bd-inline {
+    display: inline;
+}

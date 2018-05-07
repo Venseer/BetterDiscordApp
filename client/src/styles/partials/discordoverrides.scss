@@ -1,0 +1,24 @@
+.guilds-wrapper {
+    padding-top: 49px !important;
+
+    .platform-osx & {
+        margin-top: 26px;
+    }
+}
+
+[class*="guilds-wrapper"] + [class*="flex"] {
+    border-radius: 0 0 0 5px;
+}
+
+.unread-mentions-indicator-top {
+    top: 49px;
+
+    .platform-osx & {
+        top: 50px;
+    }
+}
+
+// Any layers need to be above the main layer (where the BD button is placed)
+.layer-kosS71 + .layer-kosS71 {
+    z-index: 900;
+}

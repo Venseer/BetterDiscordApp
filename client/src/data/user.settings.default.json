@@ -1,0 +1,140 @@
+[
+    {
+        "id": "core",
+        "text": "Core",
+        "headertext": "Core Settings",
+        "settings": [
+            {
+                "id": "default",
+                "settings": [
+                    {
+                        "id": "test-setting",
+                        "type": "bool",
+                        "text": "Test Setting",
+                        "hint": "Test Setting",
+                        "value": false,
+                        "disabled": false
+                    },
+                    {
+                        "id": "test-setting2",
+                        "type": "bool",
+                        "text": "Test Setting 2",
+                        "hint": "Test Setting 2",
+                        "value": true,
+                        "disabled": false
+                    },
+                    {
+                        "id": "voice-disconnect",
+                        "type": "bool",
+                        "text": "Voice Disconnect",
+                        "hint": "Disconnect from voice server when Discord closes",
+                        "value": false,
+                        "disabled": true
+                    },
+                    {
+                        "id": "menu-keybind",
+                        "type": "keybind",
+                        "text": "Menu keybind",
+                        "value": "mod+b"
+                    }
+                ]
+            },
+            {
+                "id": "advanced",
+                "name": "Advanced",
+                "type": "drawer",
+                "settings": [
+                    {
+                        "id": "developer-mode",
+                        "type": "bool",
+                        "text": "Developer mode",
+                        "hint": "Adds some of BetterDiscord's internal modules to `global._bd`.",
+                        "value": false
+                    },
+                    {
+                        "id": "debugger-keybind",
+                        "type": "keybind",
+                        "text": "Debugger keybind",
+                        "hint": "When this keybind is activated the developer tools will be opened and Discord will be paused."
+                    },
+                    {
+                        "id": "ignore-content-manager-errors",
+                        "type": "bool",
+                        "text": "Ignore content manager errors",
+                        "hint": "Only when starting Discord. It gets annoying when you're reloading Discord often and have plugins that are meant to fail.",
+                        "value": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ui",
+        "text": "UI",
+        "headertext": "UI Settings",
+        "settings": [
+            {
+                "id": "default",
+                "settings": [
+                    {
+                        "id": "hide-button",
+                        "type": "bool",
+                        "text": "Hide the BetterDiscord button",
+                        "hint": "When this is enabled you can use Ctrl/Cmd + B to open the BetterDiscord settings menu.",
+                        "value": false,
+                        "disabled": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "emotes",
+        "text": "Emotes",
+        "headertext": "Emote Settings",
+        "settings": [
+            {
+                "id": "default",
+                "settings": [
+                    {
+                        "id": "enable",
+                        "type": "bool",
+                        "text": "Enable emotes",
+                        "value": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "css",
+        "text": "CSS Editor",
+        "settings": [
+            {
+                "id": "default",
+                "settings": [
+                    {
+                        "id": "live-update",
+                        "type": "bool",
+                        "text": "Live update",
+                        "hint": "Automatically recompile custom CSS when typing in the custom CSS editor.",
+                        "value": true
+                    },
+                    {
+                        "id": "watch-files",
+                        "type": "bool",
+                        "text": "Watch included files",
+                        "hint": "Automatically recompile theme and custom CSS when a file it imports is changed.",
+                        "value": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "security",
+        "text": "Security",
+        "headertext": "Security Settings",
+        "settings": []
+    }
+]
