@@ -1,3 +1,5 @@
+Note that this whole branch is deprecated. all further development is going on here: https://github.com/JsSucks/BetterDiscordApp
+
 # BetterDiscordApp
 
 # If you have issues then join the BD Discord server: [Here](https://discord.gg/0Tmfo5ZbORCRqbAd)
@@ -6,9 +8,9 @@
 
 ## All plugins must be named `*.plugin.js` and all themes must be named `*.theme.css`
 
-Better Discord App enhances Discord desktop app with new features.
+Better Discord App enhances the Discord desktop app with new features.
 
-![ss](http://puu.sh/oIO58.png)
+![ss](http://i.imgur.com/Gj6oD7z.png)
 
 ## Windows Universal Installer
 * Download the latest installer from [releases](https://github.com/Jiiks/BetterDiscordApp/releases)
@@ -50,8 +52,8 @@ Minimal mode makes elements smaller and hides certain elements.
 Only display voice channels
 
 **Public Servers:**
-A modal window for public servers [DiscordServers.com](https://www.discordservers.com/) 
-![ss](http://puu.sh/o9oNl.png)
+Public server listing provided by: [DiscordServers.com](https://www.discordservers.com/) 
+![ss](http://i.imgur.com/BVUZlu9.png)
 
 **Custom CSS**
 BetterDiscord supports custom CSS for styling Discord to your liking.
@@ -79,14 +81,14 @@ Add your server there and it will appear in the list!
 ## Credits
 * MacOS Installer by [Candunc](https://github.com/Candunc) 
 * Emote titles by [pendo324](https://github.com/pendo324)
-* Majority of FFZ emote work by [Pohky] (https://github.com/pohky)
-* Majority of BTTV emote work by [EhsanKia] (https://github.com/EhsanKia)
+* Majority of FFZ emote work by [Pohky](https://github.com/pohky) and [DeathStrikeV](https://github.com/DeathStrikeV)
+* Majority of BTTV emote work by [EhsanKia](https://github.com/EhsanKia)
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2015-2016 Jiiks | [Jiiks.net] (https://jiiks.net)
+Copyright (c) 2015-present Jiiks | [Jiiks.net](https://jiiks.net)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

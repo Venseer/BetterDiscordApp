@@ -15,3 +15,7 @@ Installers/dotNet/packages/
 Installers/dotNet/dlls/
 v2/dist/vendor/
 v2/lib/static.js
+**/*.suo
+Installers/**/*/bin
+Installers/**/*/obj
+Installers/**/*/packages
